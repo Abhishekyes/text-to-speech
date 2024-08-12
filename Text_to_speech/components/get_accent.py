@@ -1,5 +1,5 @@
-from text_to_speech.exception import TTSException
-from text_to_speech.logger import logger
+from Text_to_speech.exception import TTSException
+from Text_to_speech.logger import logger
 import sys
 
 def get_accent_tld(user_input):

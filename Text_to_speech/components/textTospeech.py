@@ -1,8 +1,8 @@
-from text_to_speech.exception import TTSException
-from text_to_speech.logger import logger
-from text_to_speech.entity.config_entity import TTSConfig
+from Text_to_speech.exception import TTSException
+from Text_to_speech.logger import logger
+from Text_to_speech.entity.config_entity import TTSConfig
 import sys, os
-from text_to_speech.constants import TEXT_FILE_NAME, CURRENT_TIME_STAMP
+from Text_to_speech.constants import TEXT_FILE_NAME, CURRENT_TIME_STAMP
 from gtts import gTTS
 import base64
 
